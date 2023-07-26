@@ -3,7 +3,7 @@ const mongoose = require("mongoose");
  exports.Database= function Database() {
     mongoose.set('strictQuery', false);
     mongoose
-      .connect("mongodb+srv://ZafarUllahKhan:Zafarkhan%40113@cluster0.4dnnhg0.mongodb.net/netflix?retryWrites=true&w=majority", {
+      .connect("mongodb+srv://vinay278980:Password$123@cluster0.hubfsfh.mongodb.net/?retryWrites=true&w=majority", {
         useNewUrlParser: true,
         useUnifiedTopology: true,
       })
@@ -14,4 +14,3 @@ const mongoose = require("mongoose");
         console.log(err.message);
       });
 }
- 
